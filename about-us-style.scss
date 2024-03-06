@@ -1,0 +1,201 @@
+// DEFAULT SETUP
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: #efede1;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+// FIRST PART STYLE IMAGE
+.first-part-image img {
+    min-width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+}
+
+// SECOND PART ABOUT US STYLE
+.second-part-about{
+    min-height: 100vh;
+}
+.second-part-about h1{
+    margin: 50px 0px 0px 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(168, 41, 58);
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.border-under-title{
+    text-align: center;
+}
+.second-part-about .title-contact-border img{
+    max-width: 55%;
+    rotate: 180deg;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.second-part-about .contact-footer-border img{
+    max-width: 55%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15.2px;
+    line-height: 25.2px;
+    letter-spacing: 2.8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(168, 40, 57);
+    text-align: center;
+    margin: 50px 0px;
+ }   
+ .second-part-about p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    font-size: 14px;
+    line-height: 25.2px;
+    letter-spacing: .8px;
+    font-weight: 400;
+    color: rgb(139, 109, 75);
+    text-align: center;
+ }
+
+
+
+
+
+ 
+// FOOTER
+.footer-container{
+   margin-top: 50px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    color: #A3773E;
+}
+.footer-container .title h5{
+    font-size: 15.4px;
+    line-height: 35.2px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-container span{
+    color: #A42434;
+}
+.footer-container .border-title-main img{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.footer-container .location-contact .location .direction{
+    display: flex;
+    margin: 20px 0px;
+    width: 100%;
+    justify-content: center;
+a{
+    cursor: pointer;
+    display: flex;
+    
+p{
+    line-height: 35px;
+    font-weight: 700;
+}
+}
+img{
+    max-width:35px;
+  margin: 0px 5px 0px 0px;
+  object-fit: cover;
+}
+}
+.footer-container .social img{
+    max-width:35px;
+    margin: 25px;
+}
+.footer-container .location-contact{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    text-align: center;
+}
+.footer-container .location-contact a{
+    text-decoration: none;
+    color: #A3773E;
+    line-height: 35.2px;
+    letter-spacing: 1px;
+}
+.footer-container{
+    .arrow{
+        margin: 25px 0px;
+        width: 50px;
+        height: 50px;
+        rotate: 225deg;
+        border: 5px solid white;
+        border-top: transparent;
+        border-left: transparent;
+        align-items: center;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        opacity: 0.37;
+    }
+    .arrow:hover{
+        opacity: 0.8;
+        transition: 0.2s ease-in;
+    }
+}
+//  @MEDIA SCREEN
+@media screen and (max-width:810px) {
+    body{
+        overflow-x: hidden;
+    }
+    .first-part-image img{
+        max-width: 100%;
+    }
+    .second-part-reserve h1{
+        font-size: 30px;
+    }
+    .second-part-about p{
+        max-width: 90%;
+    }
+    .footer-container .location-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container .location-contact .location{
+        margin-bottom: 50px;
+    }
+    .second-part-about .title-contact-border img{
+        max-width: 70%;
+    }
+    .second-part-about .contact-footer-border img{
+        max-width: 70%;
+    }
+}

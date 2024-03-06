@@ -1,0 +1,1 @@
+if(console){var cookiedomainwarning='Error: The domain WWW.SALONGOLESCU.RO is not authorized to show the cookie banner for domain group ID 11a7c826-e03e-4644-ab2a-043058c8d16b. Please add it to the domain group in the Cookiebot Manager to authorize the domain.';if(typeof console.warn === 'function'){console.warn(cookiedomainwarning)}else{console.log(cookiedomainwarning)}};

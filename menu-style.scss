@@ -1,0 +1,318 @@
+
+// MAIN
+body{
+    background-color: #efede1;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+// TITLE MENU
+.title-menu{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.title-menu h1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(168, 41, 58);
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.food-quote{
+    position: relative;
+    margin-top: 50px;
+    max-width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.food-quote .quote , .disclaimer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    max-width: 440px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0.32px;
+    color: rgb(169, 40, 57);
+}
+.select-menu{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+.select-menu a{
+    text-decoration: none;
+    color: rgb(169, 40, 57);
+}
+.select-menu .lunch{
+    color: #8b6d4b;
+}
+.select-menu h3{
+    font-size: 14px;
+    line-height: 25.2px;
+    letter-spacing: 0px;
+}
+
+// TITLE MENU FOOTER BORDER 
+
+.title-menu-border{
+    text-align: center;
+    margin: 50px;
+}
+.title-menu-border img{
+ max-width: 55%;
+ rotate: 180deg;
+}
+.menu-footer-border{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.menu-footer-border img{
+    max-width: 55%;
+}
+
+// MENU CONTENT
+
+.menu-container{
+    display: flex;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-container span{
+    font-weight: 700;
+    color: rgb(139, 109, 75);
+    font-size: larger;
+}
+.menu-container .right-side-menu span {
+    margin-bottom: -55px;
+}
+.menu-container h2{
+    margin: 50px;  
+    font-weight: 400; 
+    color: rgb(169, 40, 57);
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.left-side-menu , .right-side-menu{
+    text-align: center;
+}
+.menu-container .right-side-menu p{
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.menu-container p{
+    margin: 20px;
+    color: rgb(139, 109, 75);
+}
+
+// LINE BETWEEN COLUMNS
+.line-between-columns{
+    margin: 50px;
+    display: flex;
+    width: 3px;
+    min-height: 100%;
+    background-color: #212121;
+}
+
+// MENU FOOTER
+.menu-footer-allergens-container{
+    border: 1px solid black;
+    max-width: 600px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-footer-container h4{
+    color: rgb(139, 109, 75);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-footer-container .menu-footer-allergens-text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.menu-footer-type{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.menu-footer-container{
+    margin: 55px;
+}
+
+// RESPONSIVE MENU
+
+@media screen and (max-width:810px) {
+    body{
+        overflow-x: hidden;
+    }
+    .menu-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        margin-left: 10px;
+        text-align: start;
+    }
+    .line-between-columns{
+        display: none;
+    }
+    .menu-container h2 , p {
+        text-align: center;
+        margin: 15px 15px 0px 10px;
+        color: rgb(139, 109, 75);
+    }
+    .menu-container h2{
+        color: rgb(169, 40, 57);
+        letter-spacing: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .menu-container span{
+        color: rgb(139, 109, 75);
+    }
+    .menu-container h2{
+        text-align: center;
+        margin: 35px;
+        text-decoration: none;
+    }
+    .menu-footer-allergens-container{
+        border: none;
+    }
+    .select-menu{
+        display: block;
+    }
+    .menu-footer-type{
+        display: block;
+        h4{
+            margin: 5px 0px;
+        }
+    }
+}
+
+
+  // FOOTER
+  .footer-container{
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    color: #A3773E;
+}
+.footer-container .title h5{
+    font-size: 15.4px;
+    line-height: 35.2px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-container span{
+    color: #A42434;
+}
+.footer-container .border-title-main img{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.footer-container .location-contact .location .direction{
+    display: flex;
+    margin: 20px 0px;
+    width: 100%;
+    justify-content: center;
+a{
+    cursor: pointer;
+    display: flex;
+    
+p{
+    line-height: 35px;
+    font-weight: 700;
+}
+}
+img{
+    max-width:35px;
+  margin: 0px 5px 0px 0px;
+  object-fit: cover;
+}
+}
+.footer-container .social img{
+    max-width:35px;
+    margin: 25px;
+}
+.footer-container .location-contact{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    text-align: center;
+}
+.footer-container .location-contact a{
+    text-decoration: none;
+    color: #A3773E;
+    line-height: 35.2px;
+    letter-spacing: 1px;
+}
+
+.footer-container{
+    .arrow{
+        margin: 25px 0px;
+        width: 50px;
+        height: 50px;
+        rotate: 225deg;
+        border: 5px solid white;
+        border-top: transparent;
+        border-left: transparent;
+        align-items: center;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        opacity: 0.37;
+    }
+    .arrow:hover{
+        opacity: 0.8;
+        transition: 0.2s ease-in;
+    }
+}
+// FOOTER @MEDIA SCREEN
+@media screen and (max-width:810px) {
+    .footer-container .location-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container .location-contact .location{
+        margin-bottom: 50px;
+    }
+}
